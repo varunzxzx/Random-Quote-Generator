@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #b7deed;
+    background: -moz-linear-gradient(to left,#3F01E8,#0BF8FF);
+    background: -webkit-linear-gradient(to left,#3F01E8,#0BF8FF);
+    background: linear-gradient(to left,#3F01E8,#0BF8FF);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+#container {
+    width: 50%;
+    min-width: 350px;
+    margin: 10% auto;
+    background: #D4E89D;
+    box-shadow: -2px 4px 6px rgba(0,0,0,0.8);
+}
+
+#quoteContent {
+    color: #0000FF;
+}
+
+#quote {
+    text-align: center;
+    padding: 10px 35px 0 35px;
+    font-weight: 500;
+    font-size: 2em;
+    font-family: "Raleway", sans-serif;
+}
+
+#author {
+    text-align: right;
+    padding: 0 10%;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#buttons {
+    overflow: auto;
+    width: 80%;
+    margin: 5px auto;
+}
+
+#buttons a {
+    margin: 20px 10px 10px 10px;
+    background: #3F01E8;
+    font-family: Arial;
+    color: white;
+    border-radius: 7px;
+    padding: 8px;
+    width: 40px;
+    font-size: 1.6em;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+#buttons a:hover {
+    background-color: #5C32FF;
+}
+
+#tweet, #tumblr {
+    float: left;
+}
+
+#new {
+    float: right;
+}
+
+p {
+    display: inline;
+}
+
+#quote i {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: antiquewhite;
+}
